@@ -1,0 +1,2 @@
+#!/bin/bash
+ffmpeg -ss $1 -i $3 -t `expr $2 - $1` -c copy $4
